@@ -1,0 +1,55 @@
+/* Alap wrapper teljes szélességű oldallal */
+.app-wrapper {
+  min-height: 100vh;
+  width: 100%;
+  background: #e8f5e9; /* világos zöld háttér */
+  padding-top: 80px;
+  box-sizing: border-box;
+}
+
+/* Page container teljes szélességű és rugalmas */
+.page-container {
+  width: 1600px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Navbar egyedi stílus */
+.custom-navbar {
+  background-color: #136d28 !important; /* zöld */
+}
+
+/* Kártyák és gombok stílusa */
+.page-container .card {
+  border-radius: 15px;
+  transition: transform 0.2s;
+}
+
+.page-container .card:hover {
+  transform: translateY(-5px);
+}
+
+.page-container .btn-outline-success {
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.page-container .btn-outline-success:hover {
+  background-color: #28a745;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Üzenetek */
+.alert-info {
+  background-color: #d4edda;
+  color: #155724;
+  border-color: #c3e6cb;
+}
+
+/* Row stílus módosítása teljes szélességhez */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* kártyák közti távolság */
+}

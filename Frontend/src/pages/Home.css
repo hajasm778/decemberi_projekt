@@ -1,0 +1,64 @@
+:root {
+  --green-main: #1b7f5c;
+  --green-accent: #2ecc71;
+  --green-light: #e6f4ef;
+}
+
+/* Teljes oldal */
+.home-page {
+  background: linear-gradient(180deg, #f3fbf7, #ffffff);
+  min-height: 100vh;
+}
+
+/* Üdvözlő box */
+.welcome-box {
+  background: linear-gradient(135deg, var(--green-main), var(--green-accent));
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.18);
+}
+
+/* Szekció cím */
+.section-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--green-main);
+}
+
+/* Termék kártya wrapper */
+.product-card {
+  background: white;
+  border-radius: 18px;
+  padding: 10px;
+  transition: all 0.35s ease;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.18);
+}
+
+/* Egyedi zöld gomb */
+.btn-green {
+  background: var(--green-main);
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 22px;
+  transition: all 0.3s ease;
+}
+
+.btn-green:hover {
+  background: #145c44;
+  transform: scale(1.05);
+}
+
+/* Üzenet */
+.custom-alert {
+  background: var(--green-light);
+  color: var(--green-main);
+  border-radius: 14px;
+  border: 1px solid #bfe7d9;
+  font-weight: 500;
+}
